@@ -8,7 +8,7 @@ function CartItem({ item }) {
 			<div className="App_cartItemLeft cartItemLeft">
 				<div
 					className="App_cartItemImage cartItemImage"
-					style={{ backgroundColor: "rgb(253, 88, 74)" }}
+					style={{ backgroundColor: item.color }}
 				>
 					<div className="App_cartItemImageBlock">
 						<img src={item.image} alt="" />
